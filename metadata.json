@@ -1,0 +1,6 @@
+{
+  "name": "CIVISCAN - Road Damage & Garbage Monitoring",
+  "description": "AI-powered municipal road damage and garbage monitoring system. Detect early, prioritize smartly, and build safer cities.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

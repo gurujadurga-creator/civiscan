@@ -1,0 +1,851 @@
+{
+  "issues": [
+    {
+      "id": "CIVI-2026-0107",
+      "title": "Test Deep Pothole at 5th St",
+      "description": "",
+      "category": "Pothole",
+      "priority": "High",
+      "severityScore": 9,
+      "riskFactors": [],
+      "priorityOverride": null,
+      "status": "New Issue",
+      "location": {
+        "lat": 37.7795,
+        "lng": -122.4112,
+        "address": "5th St and Mission St, Metro Sector 2",
+        "source": "browser_gps",
+        "accuracyMeters": 3.5
+      },
+      "imageUrl": "",
+      "createdAt": "2026-10-09T14:12:23.986Z",
+      "updatedAt": "2026-10-09T14:12:23.986Z",
+      "department": "Roads & Highways",
+      "assignedStaff": null,
+      "reporter": {
+        "name": "Municipal Reporter",
+        "role": "Citizen Report"
+      },
+      "aiAnalysis": null,
+      "repairData": null,
+      "verificationData": null,
+      "history": [
+        {
+          "timestamp": "2026-10-09T14:12:23.986Z",
+          "actorName": "Intake Officer",
+          "actorRole": "System",
+          "action": "Issue Created",
+          "details": "Logged as Pothole with High priority."
+        }
+      ]
+    },
+    {
+      "id": "CIVI-2026-0101",
+      "title": "Severe Arterial Pothole near Central Crossing",
+      "description": "Deep pavement crater measuring ~45cm diameter on south lane. Poses immediate vehicular axle risk and motorcycle hazard.",
+      "category": "Pothole",
+      "priority": "High",
+      "severityScore": 9,
+      "riskFactors": [
+        "High-speed corridor (45mph)",
+        "Blind curve approach",
+        "Active bus transit line"
+      ],
+      "priorityOverride": null,
+      "status": "In Progress",
+      "location": {
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "address": "742 Market St at 4th, Downtown Metro",
+        "source": "browser_gps",
+        "accuracyMeters": 4.2
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-08T08:15:00.000Z",
+      "updatedAt": "2026-10-09T03:30:00.000Z",
+      "department": "Roads & Highways",
+      "assignedStaff": {
+        "id": "user-staff-1",
+        "name": "James Miller",
+        "phone": "+1 (555) 018-4421",
+        "assignedAt": "2026-10-08T11:00:00.000Z"
+      },
+      "reporter": {
+        "name": "Transit Officer T. Lee",
+        "role": "Municipal Field Staff",
+        "contact": "t.lee@transit.gov"
+      },
+      "aiAnalysis": {
+        "isAiGenerated": true,
+        "isSimulatedDemo": true,
+        "modelUsed": "gemini-3.8-flash",
+        "confidence": 0.96,
+        "detectedLabels": [
+          "Deep asphalt crater",
+          "Sub-base exposure",
+          "Edge fatigue cracking"
+        ],
+        "assessment": "High-risk road surface collapse with water accumulation potential and risk of catastrophic tire blowout.",
+        "hazardLevel": "Critical",
+        "recommendedPriority": "High",
+        "detectedDimensions": "Approx 48cm x 40cm, depth ~9cm"
+      },
+      "repairData": null,
+      "verificationData": null,
+      "history": [
+        {
+          "timestamp": "2026-10-08T08:15:00.000Z",
+          "actorName": "Transit Officer T. Lee",
+          "actorRole": "Municipal Officer",
+          "action": "Issue Reported",
+          "details": "Initial report filed with field photo and high-precision GPS."
+        },
+        {
+          "timestamp": "2026-10-08T11:00:00.000Z",
+          "actorName": "Marcus Vance",
+          "actorRole": "Municipal Officer",
+          "action": "Assigned to Staff",
+          "details": "Dispatched to James Miller (Roads & Highways rapid asphalt unit)."
+        },
+        {
+          "timestamp": "2026-10-09T03:30:00.000Z",
+          "actorName": "James Miller",
+          "actorRole": "Repair Staff",
+          "action": "Work Started",
+          "details": "Perimeter cordoned off with safety cones; milling equipment deployed."
+        }
+      ]
+    },
+    {
+      "id": "CIVI-2026-0102",
+      "title": "Illegal Commercial Debris Dump along East Greenway",
+      "description": "Bulk construction timber, concrete bags, and discarded household garbage obstructing sidewalk and storm drain.",
+      "category": "Roadside Garbage",
+      "priority": "High",
+      "severityScore": 8,
+      "riskFactors": [
+        "Storm drain blockage hazard",
+        "Pedestrian walkway completely blocked",
+        "Vector attraction"
+      ],
+      "priorityOverride": null,
+      "status": "Awaiting Verification",
+      "location": {
+        "lat": 37.7833,
+        "lng": -122.4167,
+        "address": "1100 Mission St, Civic Corridor",
+        "source": "manual_map"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1611288875785-f55e09880624?w=800&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-07T14:20:00.000Z",
+      "updatedAt": "2026-10-09T02:10:00.000Z",
+      "department": "Waste Management",
+      "assignedStaff": {
+        "id": "user-staff-2",
+        "name": "David O'Connor",
+        "phone": "+1 (555) 017-6632",
+        "assignedAt": "2026-10-08T09:15:00.000Z"
+      },
+      "reporter": {
+        "name": "Neighborhood Watch Patrol",
+        "role": "Citizen Report"
+      },
+      "aiAnalysis": {
+        "isAiGenerated": true,
+        "isSimulatedDemo": true,
+        "modelUsed": "gemini-3.8-flash",
+        "confidence": 0.93,
+        "detectedLabels": [
+          "Construction debris",
+          "Plastic bulk waste",
+          "Sidewalk obstruction"
+        ],
+        "assessment": "Municipal solid waste dumped illegally; encroaching on drainage channel.",
+        "hazardLevel": "Severe",
+        "recommendedPriority": "High"
+      },
+      "repairData": {
+        "completedAt": "2026-10-09T02:10:00.000Z",
+        "completedByStaffId": "user-staff-2",
+        "staffName": "David O'Connor",
+        "completionPhotoUrl": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&auto=format&fit=crop&q=80",
+        "repairNotes": "Cleaned entire curb zone. Dispatched 1.8 tons of debris to Municipal Recycling Center. Swept and pressure washed sidewalk.",
+        "materialsUsed": "Sanitation Compactor Truck #4, Heavy brooms, bio-cleanser",
+        "laborHours": 3.5
+      },
+      "verificationData": null,
+      "history": [
+        {
+          "timestamp": "2026-10-07T14:20:00.000Z",
+          "actorName": "Neighborhood Watch Patrol",
+          "actorRole": "System",
+          "action": "Issue Reported",
+          "details": "Citizen report received with image proof."
+        },
+        {
+          "timestamp": "2026-10-08T09:15:00.000Z",
+          "actorName": "Elena Rossi",
+          "actorRole": "Municipal Officer",
+          "action": "Assigned to Staff",
+          "details": "Assigned to David O'Connor (Sanitation Dept)."
+        },
+        {
+          "timestamp": "2026-10-09T02:10:00.000Z",
+          "actorName": "David O'Connor",
+          "actorRole": "Repair Staff",
+          "action": "Completed Work Submitted",
+          "details": "Completion photo and cleanup log submitted for Municipal Officer sign-off."
+        }
+      ]
+    },
+    {
+      "id": "CIVI-2026-0103",
+      "title": "Longitudinal Asphalt Fracture on Elevated Overpass",
+      "description": "Continuous crack extending ~12 meters parallel to median. Surface water penetration noticed during recent precipitation.",
+      "category": "Road Crack",
+      "priority": "Medium",
+      "severityScore": 6,
+      "riskFactors": [
+        "Bridge expansion joint proximity",
+        "Freeze-thaw degradation risk"
+      ],
+      "priorityOverride": null,
+      "status": "Assigned",
+      "location": {
+        "lat": 37.7699,
+        "lng": -122.4467,
+        "address": "Corona Heights Overpass, West Spine",
+        "source": "browser_gps",
+        "accuracyMeters": 5.8
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb1861593?w=800&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-08T16:45:00.000Z",
+      "updatedAt": "2026-10-09T01:00:00.000Z",
+      "department": "Roads & Highways",
+      "assignedStaff": {
+        "id": "user-staff-1",
+        "name": "James Miller",
+        "phone": "+1 (555) 018-4421",
+        "assignedAt": "2026-10-09T01:00:00.000Z"
+      },
+      "reporter": {
+        "name": "Marcus Vance",
+        "role": "Municipal Officer",
+        "contact": "marcus.vance@civic.gov"
+      },
+      "aiAnalysis": {
+        "isAiGenerated": true,
+        "isSimulatedDemo": true,
+        "modelUsed": "gemini-3.8-flash",
+        "confidence": 0.89,
+        "detectedLabels": [
+          "Longitudinal pavement crack",
+          "Asphalt weathering"
+        ],
+        "assessment": "Moderate structural seam opening requiring hot-pour rubberized sealant injection.",
+        "hazardLevel": "Moderate",
+        "recommendedPriority": "Medium"
+      },
+      "repairData": null,
+      "verificationData": null,
+      "history": [
+        {
+          "timestamp": "2026-10-08T16:45:00.000Z",
+          "actorName": "Marcus Vance",
+          "actorRole": "Municipal Officer",
+          "action": "Issue Logged",
+          "details": "Identified during scheduled routine infrastructure audit."
+        },
+        {
+          "timestamp": "2026-10-09T01:00:00.000Z",
+          "actorName": "Sarah Chen",
+          "actorRole": "Administrator",
+          "action": "Assigned to Staff",
+          "details": "Scheduled for crack-sealing machine dispatch."
+        }
+      ]
+    },
+    {
+      "id": "CIVI-2026-0104",
+      "title": "Overflowing Public Recycling Bin & Scattered Litter",
+      "description": "City bin overflowing across sidewalk near elementary school crossing. Plastic wrappers and beverage cans blown across curb.",
+      "category": "Roadside Garbage",
+      "priority": "Low",
+      "severityScore": 4,
+      "riskFactors": [
+        "School zone proximity",
+        "Wind dispersion"
+      ],
+      "priorityOverride": null,
+      "status": "Pending",
+      "location": {
+        "lat": 37.7601,
+        "lng": -122.4289,
+        "address": "420 Valencia St, Mission District",
+        "source": "manual_map"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=800&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-09T04:10:00.000Z",
+      "updatedAt": "2026-10-09T04:10:00.000Z",
+      "department": "Waste Management",
+      "assignedStaff": null,
+      "reporter": {
+        "name": "Community Patrol Unit 3",
+        "role": "Civic Monitor"
+      },
+      "aiAnalysis": {
+        "isAiGenerated": true,
+        "isSimulatedDemo": true,
+        "modelUsed": "gemini-3.8-flash",
+        "confidence": 0.91,
+        "detectedLabels": [
+          "Overflowing receptacle",
+          "Plastic bottles",
+          "Curb litter"
+        ],
+        "assessment": "Non-hazardous municipal receptacle overflow requiring route pickup.",
+        "hazardLevel": "Minor",
+        "recommendedPriority": "Low"
+      },
+      "repairData": null,
+      "verificationData": null,
+      "history": [
+        {
+          "timestamp": "2026-10-09T04:10:00.000Z",
+          "actorName": "Community Patrol Unit 3",
+          "actorRole": "System",
+          "action": "Issue Reported",
+          "details": "Automated civic intake recorded."
+        }
+      ]
+    },
+    {
+      "id": "CIVI-2026-0105",
+      "title": "Subsidence and Alligator Cracking on Bus Stop Bay",
+      "description": "Depressed pavement pocket with fatigue network cracking at heavy braking station. Rain causes deep standing puddle.",
+      "category": "Road Crack",
+      "priority": "High",
+      "severityScore": 8,
+      "riskFactors": [
+        "Heavy axle bus stopping zone",
+        "Pedestrian boarding splash danger"
+      ],
+      "priorityOverride": {
+        "overriddenBy": "user-officer-1",
+        "officerName": "Marcus Vance",
+        "originalPriority": "Medium",
+        "newPriority": "High",
+        "reason": "Elevated to High priority due to direct impact on wheelchair accessible bus boarding ramp.",
+        "timestamp": "2026-10-07T10:00:00.000Z"
+      },
+      "status": "Completed",
+      "location": {
+        "lat": 37.755,
+        "lng": -122.418,
+        "address": "24th St & Folsom Transit Bay",
+        "source": "image_exif",
+        "accuracyMeters": 3.5
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1578844251758-2f71da64c96f?w=800&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-05T09:00:00.000Z",
+      "updatedAt": "2026-10-07T16:00:00.000Z",
+      "department": "Roads & Highways",
+      "assignedStaff": {
+        "id": "user-staff-1",
+        "name": "James Miller",
+        "phone": "+1 (555) 018-4421",
+        "assignedAt": "2026-10-05T12:00:00.000Z"
+      },
+      "reporter": {
+        "name": "Bus Driver Transit Union",
+        "role": "Public Transport Operator"
+      },
+      "aiAnalysis": {
+        "isAiGenerated": true,
+        "isSimulatedDemo": true,
+        "modelUsed": "gemini-3.8-flash",
+        "confidence": 0.94,
+        "detectedLabels": [
+          "Alligator cracking",
+          "Pavement subsidence",
+          "Transit bay wear"
+        ],
+        "assessment": "Fatigue failure of pavement sub-grade due to repetitive heavy vehicle braking loads.",
+        "hazardLevel": "Severe",
+        "recommendedPriority": "Medium"
+      },
+      "repairData": {
+        "completedAt": "2026-10-07T14:30:00.000Z",
+        "completedByStaffId": "user-staff-1",
+        "staffName": "James Miller",
+        "completionPhotoUrl": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=800&auto=format&fit=crop&q=80",
+        "repairNotes": "Full-depth patching performed. 6 inches hot mix asphalt compacted to 98% density. Thermal joint sealed and re-striped transit boundary.",
+        "materialsUsed": "2.5 tons Hot Mix Asphalt (HMA), Bituminous tack coat, reflective thermoplastic stripe",
+        "laborHours": 6
+      },
+      "verificationData": {
+        "verifiedAt": "2026-10-07T16:00:00.000Z",
+        "verifiedByOfficerId": "user-officer-1",
+        "officerName": "Marcus Vance",
+        "verificationNotes": "On-site laser profilometer inspection completed. Smooth surface profile with zero depression. Approved for transit reopen.",
+        "approved": true
+      },
+      "history": [
+        {
+          "timestamp": "2026-10-05T09:00:00.000Z",
+          "actorName": "Transit Union",
+          "actorRole": "System",
+          "action": "Report Submitted",
+          "details": "Intake created."
+        },
+        {
+          "timestamp": "2026-10-07T10:00:00.000Z",
+          "actorName": "Marcus Vance",
+          "actorRole": "Municipal Officer",
+          "action": "Priority Escalated",
+          "details": "Overrode priority from Medium to High (Wheelchair ramp safety)."
+        },
+        {
+          "timestamp": "2026-10-07T14:30:00.000Z",
+          "actorName": "James Miller",
+          "actorRole": "Repair Staff",
+          "action": "Work Completed",
+          "details": "Asphalt paving completed and before/after verification submitted."
+        },
+        {
+          "timestamp": "2026-10-07T16:00:00.000Z",
+          "actorName": "Marcus Vance",
+          "actorRole": "Municipal Officer",
+          "action": "Work Verified & Closed",
+          "details": "Final official municipal verification approved."
+        }
+      ]
+    },
+    {
+      "id": "CIVI-2026-0106",
+      "title": "Fissure along Bike Lane Boundary",
+      "description": "Longitudinal gap in designated green bike path. Risk of road cyclist tire entrapment.",
+      "category": "Road Crack",
+      "priority": "Medium",
+      "severityScore": 5,
+      "riskFactors": [
+        "High commuter cyclist volume",
+        "Narrow barrier separation"
+      ],
+      "priorityOverride": null,
+      "status": "New Issue",
+      "location": {
+        "lat": 37.771,
+        "lng": -122.411,
+        "address": "Folsom St & 8th, South of Market",
+        "source": "browser_gps",
+        "accuracyMeters": 6
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1584467735867-4297ae2ebcee?w=800&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-09T05:00:00.000Z",
+      "updatedAt": "2026-10-09T05:00:00.000Z",
+      "department": "Roads & Highways",
+      "assignedStaff": null,
+      "reporter": {
+        "name": "Cycling Coalition Volunteer",
+        "role": "Civic Advocate"
+      },
+      "aiAnalysis": {
+        "isAiGenerated": true,
+        "isSimulatedDemo": true,
+        "modelUsed": "gemini-3.8-flash",
+        "confidence": 0.88,
+        "detectedLabels": [
+          "Bicycle corridor crack",
+          "Surface separation"
+        ],
+        "assessment": "Surface crack along cycle path requiring mastic sealant before lane paint renewal.",
+        "hazardLevel": "Moderate",
+        "recommendedPriority": "Medium"
+      },
+      "repairData": null,
+      "verificationData": null,
+      "history": [
+        {
+          "timestamp": "2026-10-09T05:00:00.000Z",
+          "actorName": "Cycling Coalition Volunteer",
+          "actorRole": "System",
+          "action": "Issue Reported",
+          "details": "Uploaded photo with geolocation."
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "user-admin-1",
+      "name": "Sarah Chen",
+      "email": "sarah.chen@civic.gov",
+      "role": "Administrator",
+      "department": "Municipal Operations & Oversight",
+      "badge": "ADM-8801",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "phone": "+1 (555) 019-2831"
+    },
+    {
+      "id": "user-officer-1",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@civic.gov",
+      "role": "Municipal Officer",
+      "department": "Roads & Highways",
+      "badge": "OFF-4412",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "phone": "+1 (555) 014-9210"
+    },
+    {
+      "id": "user-officer-2",
+      "name": "Elena Rossi",
+      "email": "elena.rossi@civic.gov",
+      "role": "Municipal Officer",
+      "department": "Waste Management",
+      "badge": "OFF-4419",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "phone": "+1 (555) 012-7744"
+    },
+    {
+      "id": "user-staff-1",
+      "name": "James Miller",
+      "email": "james.miller@civic.gov",
+      "role": "Repair Staff",
+      "department": "Roads & Highways",
+      "badge": "WRK-1092",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "phone": "+1 (555) 018-4421"
+    },
+    {
+      "id": "user-staff-2",
+      "name": "David O'Connor",
+      "email": "david.oconnor@civic.gov",
+      "role": "Repair Staff",
+      "department": "Waste Management",
+      "badge": "WRK-1098",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "phone": "+1 (555) 017-6632"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1791555143986",
+      "issueId": "CIVI-2026-0107",
+      "title": "New Issue Reported: Test Deep Pothole at 5th St",
+      "message": "CIVI-2026-0107 reported at 5th St and Mission St, Metro Sector 2 [Priority: High]",
+      "channel": "In-App Notification",
+      "deliveryStatus": "Delivered",
+      "targetRole": "Municipal Officer",
+      "timestamp": "2026-10-09T14:12:23.986Z",
+      "read": false
+    },
+    {
+      "id": "notif-1",
+      "issueId": "CIVI-2026-0101",
+      "title": "High Priority Issue Dispatched",
+      "message": "CIVI-2026-0101 (Severe Arterial Pothole) has been dispatched to Repair Staff James Miller.",
+      "channel": "In-App Notification",
+      "deliveryStatus": "Delivered",
+      "targetRole": "Municipal Officer",
+      "timestamp": "2026-10-08T11:00:00.000Z",
+      "read": true
+    },
+    {
+      "id": "notif-2",
+      "issueId": "CIVI-2026-0102",
+      "title": "Repair Awaiting Officer Verification",
+      "message": "Staff David O'Connor completed cleanup at 1100 Mission St. Officer verification is required before closing.",
+      "channel": "In-App Notification",
+      "deliveryStatus": "Delivered",
+      "targetRole": "Municipal Officer",
+      "timestamp": "2026-10-09T02:10:00.000Z",
+      "read": false
+    },
+    {
+      "id": "notif-3",
+      "issueId": "CIVI-2026-0106",
+      "title": "New Issue Logged: Bike Lane Boundary",
+      "message": "New intake received on Folsom St & 8th. Pending review by Roads & Highways triage desk.",
+      "channel": "Dispatch Alert",
+      "deliveryStatus": "Delivered",
+      "targetRole": "Administrator",
+      "timestamp": "2026-10-09T05:00:00.000Z",
+      "read": false
+    },
+    {
+      "id": "notif-4",
+      "issueId": "CIVI-2026-0101",
+      "title": "Automated SMS Broadcast Queue",
+      "message": "SMS dispatch gateway is not configured (Twilio/AWS SNS credentials not provided). Logged to internal dispatch queue.",
+      "channel": "SMS Gateway",
+      "deliveryStatus": "Gateway Not Configured",
+      "targetRole": "All",
+      "timestamp": "2026-10-08T11:02:00.000Z",
+      "read": false
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1791555143986",
+      "timestamp": "2026-10-09T14:12:23.986Z",
+      "actor": "Citizen Intake",
+      "role": "System",
+      "action": "Issue Registration",
+      "entityType": "Issue",
+      "entityId": "CIVI-2026-0107",
+      "details": "New issue registered: Test Deep Pothole at 5th St"
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-10-07T10:00:00.000Z",
+      "actor": "Marcus Vance (OFF-4412)",
+      "role": "Municipal Officer",
+      "action": "Priority Override",
+      "entityType": "Priority",
+      "entityId": "CIVI-2026-0105",
+      "details": "Escalated priority from Medium to High due to transit bus wheelchair accessibility hazard."
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-10-07T16:00:00.000Z",
+      "actor": "Marcus Vance (OFF-4412)",
+      "role": "Municipal Officer",
+      "action": "Work Verification Approved",
+      "entityType": "Verification",
+      "entityId": "CIVI-2026-0105",
+      "details": "Inspected completed asphalt patch. Verified density and finish quality. Marked Completed."
+    },
+    {
+      "id": "log-3",
+      "timestamp": "2026-10-08T11:00:00.000Z",
+      "actor": "Marcus Vance (OFF-4412)",
+      "role": "Municipal Officer",
+      "action": "Staff Assignment",
+      "entityType": "Issue",
+      "entityId": "CIVI-2026-0101",
+      "details": "Assigned rapid repair team James Miller (Roads & Highways)."
+    },
+    {
+      "id": "log-4",
+      "timestamp": "2026-10-09T02:10:00.000Z",
+      "actor": "David O'Connor (WRK-1098)",
+      "role": "Repair Staff",
+      "action": "Submitted Repair Photo & Work Note",
+      "entityType": "Issue",
+      "entityId": "CIVI-2026-0102",
+      "details": "1.8 tons debris cleared; submitted completion proof for verification."
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-roads",
+      "name": "Roads & Highways",
+      "head": "Director Robert Shaw",
+      "contactEmail": "roads.dispatch@civic.gov",
+      "activeWorkforce": 24,
+      "openIssuesCount": 4
+    },
+    {
+      "id": "dept-waste",
+      "name": "Waste Management",
+      "head": "Director Maria Gonzalez",
+      "contactEmail": "sanitation@civic.gov",
+      "activeWorkforce": 18,
+      "openIssuesCount": 2
+    },
+    {
+      "id": "dept-safety",
+      "name": "Traffic Safety",
+      "head": "Capt. Alan Turing",
+      "contactEmail": "traffic.safety@civic.gov",
+      "activeWorkforce": 12,
+      "openIssuesCount": 1
+    },
+    {
+      "id": "dept-publicworks",
+      "name": "Public Works",
+      "head": "Chief Engineer Linda Wu",
+      "contactEmail": "publicworks@civic.gov",
+      "activeWorkforce": 30,
+      "openIssuesCount": 3
+    }
+  ],
+  "staffLocations": [
+    {
+      "userId": "user-staff-1",
+      "userName": "James Miller",
+      "userRole": "Repair Staff",
+      "department": "Roads & Highways",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "accuracyMeters": 5,
+      "heading": 45,
+      "speed": 0.5,
+      "isSharing": true,
+      "lastUpdated": "2026-10-09T14:11:30.838Z",
+      "status": "current"
+    },
+    {
+      "userId": "user-staff-2",
+      "userName": "David O'Connor",
+      "userRole": "Repair Staff",
+      "department": "Waste Management",
+      "lat": 37.7833,
+      "lng": -122.4167,
+      "accuracyMeters": 8,
+      "heading": null,
+      "speed": 0,
+      "isSharing": false,
+      "lastUpdated": "2026-10-09T13:11:30.838Z",
+      "status": "stale"
+    }
+  ],
+  "devices": [
+    {
+      "id": "DEV-DRN-01",
+      "name": "Aero-1 Photogrammetry Drone",
+      "type": "Drone",
+      "department": "Roads & Highways",
+      "serialNumber": "DRN-8821-X",
+      "status": "In Transit",
+      "lastCommunicationTime": "2026-10-09T14:10:45.839Z",
+      "lastPingAt": "2026-10-09T14:10:45.839Z",
+      "batteryLevel": 84,
+      "latencyMs": 38,
+      "connectionQuality": "Excellent",
+      "patrolSector": "Sector 4 — North Arterial Corridor",
+      "operatorName": "Marcus Vance",
+      "operatorId": "user-officer-1",
+      "firmware": "v3.4.2-civic",
+      "telemetryStreamActive": true,
+      "emergencyFlag": false,
+      "currentCoordinates": {
+        "lat": 37.778,
+        "lng": -122.415
+      },
+      "integrationConfigured": true,
+      "registeredAt": "2026-10-01T08:00:00.000Z",
+      "registeredBy": "Sarah Chen (ADM-8801)",
+      "notes": "Autonomous aerial photogrammetry sweep unit for highway pavement and curb inspection."
+    },
+    {
+      "id": "DEV-SCAN-02",
+      "name": "Laser Pavement Rutting Scanner",
+      "type": "Mobile Pavement Scanner",
+      "department": "Roads & Highways",
+      "serialNumber": "SCAN-4019-B",
+      "status": "Online",
+      "lastCommunicationTime": "2026-10-09T14:11:15.839Z",
+      "lastPingAt": "2026-10-09T14:11:15.839Z",
+      "batteryLevel": 94,
+      "latencyMs": 22,
+      "connectionQuality": "Excellent",
+      "patrolSector": "Sector 2 — Market & Mission Transit Axis",
+      "operatorName": "James Miller",
+      "operatorId": "user-staff-1",
+      "firmware": "v2.8.5-laser",
+      "telemetryStreamActive": true,
+      "emergencyFlag": false,
+      "currentCoordinates": {
+        "lat": 37.771,
+        "lng": -122.422
+      },
+      "integrationConfigured": true,
+      "registeredAt": "2026-10-03T10:30:00.000Z",
+      "registeredBy": "Sarah Chen (ADM-8801)",
+      "notes": "Mounted on Asphalt Patrol Rig #2; continuous longitudinal profile and crack laser detection."
+    },
+    {
+      "id": "DEV-PATROL-03",
+      "name": "Sanitation Rapid Response Patrol #3",
+      "type": "Patrol Unit",
+      "department": "Waste Management",
+      "serialNumber": "PTR-9012-W",
+      "status": "In Transit",
+      "lastCommunicationTime": "2026-10-09T14:11:00.839Z",
+      "lastPingAt": "2026-10-09T14:11:00.839Z",
+      "batteryLevel": 78,
+      "latencyMs": 44,
+      "connectionQuality": "Good",
+      "patrolSector": "Sector 5 — Waterfront & Embarcadero",
+      "operatorName": "David O'Connor",
+      "operatorId": "user-staff-2",
+      "firmware": "v3.1.0-mobile",
+      "telemetryStreamActive": true,
+      "emergencyFlag": false,
+      "currentCoordinates": {
+        "lat": 37.784,
+        "lng": -122.408
+      },
+      "integrationConfigured": true,
+      "registeredAt": "2026-10-04T09:00:00.000Z",
+      "registeredBy": "Elena Rossi (OFF-4419)",
+      "notes": "Municipal utility flatbed vehicle with onboard smart waste bin sensor reader."
+    },
+    {
+      "id": "DEV-SOLAR-04",
+      "name": "Solar Pavement Vibration Node Alpha",
+      "type": "Solar Street Sensor",
+      "department": "Traffic Safety",
+      "serialNumber": "SLR-1092-P",
+      "status": "Online",
+      "lastCommunicationTime": "2026-10-09T14:09:30.839Z",
+      "lastPingAt": "2026-10-09T14:09:30.839Z",
+      "batteryLevel": 100,
+      "latencyMs": 82,
+      "connectionQuality": "Good",
+      "patrolSector": "Sector 1 — Civic Center Perimeter",
+      "operatorName": "Autonomous Telemetry Core",
+      "firmware": "v1.4.9-lora",
+      "telemetryStreamActive": false,
+      "emergencyFlag": false,
+      "currentCoordinates": {
+        "lat": 37.765,
+        "lng": -122.43
+      },
+      "integrationConfigured": true,
+      "registeredAt": "2026-10-05T14:15:00.000Z",
+      "registeredBy": "Sarah Chen (ADM-8801)",
+      "notes": "Embedded solar roadside stud monitoring sub-base vibration, ambient moisture, and seismic rumble."
+    },
+    {
+      "id": "DEV-CAM-05",
+      "name": "Municipal Fleet Dashcam AI Unit #12",
+      "type": "Municipal Dashcam AI",
+      "department": "Roads & Highways",
+      "serialNumber": "CAM-5541-D",
+      "status": "Standby",
+      "lastCommunicationTime": "2026-10-09T14:01:30.839Z",
+      "lastPingAt": "2026-10-09T14:01:30.839Z",
+      "batteryLevel": 98,
+      "latencyMs": 145,
+      "connectionQuality": "Fair",
+      "patrolSector": "Sector 7 — Industrial South Beltway",
+      "operatorName": "Autonomous AI Sweep",
+      "firmware": "v2.2.0-vision",
+      "telemetryStreamActive": false,
+      "emergencyFlag": false,
+      "currentCoordinates": {
+        "lat": 37.759,
+        "lng": -122.411
+      },
+      "integrationConfigured": true,
+      "registeredAt": "2026-10-06T11:00:00.000Z",
+      "registeredBy": "Marcus Vance (OFF-4412)",
+      "notes": "Optical forward-facing road camera scanning for potholes and debris at 45mph."
+    }
+  ],
+  "deviceCommands": [
+    {
+      "id": "cmd-1",
+      "deviceId": "DEV-DRONE-01",
+      "deviceName": "CivicScan Aero-1 Drone",
+      "command": "STATUS_PING",
+      "issuedBy": "Marcus Vance (OFF-4412)",
+      "issuedAt": "2026-10-09T13:41:30.839Z",
+      "status": "Simulated Demonstration",
+      "details": "Telemetry ping responded: battery 88%, GPS lock 12 satellites (Simulated demonstration mode)."
+    }
+  ]
+}
